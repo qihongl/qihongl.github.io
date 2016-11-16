@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{filecontents}
+\begin{filecontents}{\jobname.bib}
+@article{Doe2012a,
+    author  = {J. Doe},
+    title   = {Lorem Ipsum -- Part I},
+    journal = {J. Dolor Sit Am.},
+    volume  = {1},
+    pages   = {1--10},
+    month   = {1},
+    year    = {2012},
+}
+
+@article{Doe2012b,
+    author  = {J. Doe},
+    title   = {Lorem Ipsum -- Part II},
+    journal = {J. Dolor Sit Am.},
+    volume  = {2},
+    pages   = {11--20},
+    month   = {2},
+    year    = {2012},
+}
+
+@book{Doe,
+    author    = {J. Doe},
+    title     = {Lorem Ipsum -- Complete Works},
+    publisher = {{Dolor S. Amet and Sons}},
+    year      = {2011},
+}
+\end{filecontents}
+
+\usepackage[backend=biber, sorting=nty, style=authoryear]{biblatex}
+%\addbibresource{biblatex-examples.bib}
+\addbibresource{\jobname.bib}
+
+\begin{document}
+\nocite{*}
+\printbibliography[title=Articles, type=article]
+\printbibliography[title={Conference Proceedings}, type=inproceedings]
+\printbibliography[title={Books}, type=book]
+\end{document}

@@ -1,0 +1,12 @@
+\documentclass{article}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{testing.bib}
+
+\begin{document}
+\nocite{*}
+
+\printbibliography[title=Articles, type=article]
+
+\printbibliography[title={Conference Proceedings}, type=inproceedings]
+
+\end{document}
