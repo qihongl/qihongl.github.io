@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 NOV 2016 00:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 NOV 2016 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -992,10 +992,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `CV_QL.out' has not changed.
 (rerunfilecheck)             Checksum: A499CA8D78EFC5DA9B974CB937262107;1229.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'CV_QL.run.xml'.
 \openout1 = `CV_QL.run.xml'.
 
@@ -1019,7 +1015,7 @@ al/texlive/2015/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV_QL.pdf (3 pages, 167610 bytes).
+Output written on CV_QL.pdf (3 pages, 167627 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  95 compressed objects within 1 object stream
