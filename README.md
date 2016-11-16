@@ -3,4 +3,4 @@
 
 dependencies: 
 <br>
-[1]: <a href = "https://www.sharelatex.com/templates/cv-or-resume/moderncv-classic">CV template </a>
+[1] <a href = "https://www.sharelatex.com/templates/cv-or-resume/moderncv-classic">CV template </a>
