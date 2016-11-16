@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 NOV 2016 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 NOV 2016 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,15 +990,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
  (./CV_QL.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
-
-
-Package rerunfilecheck Warning: File `CV_QL.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CV_QL.out':
-(rerunfilecheck)             Before: 0D13F674D087CA56EF735A795838F284;1249
-(rerunfilecheck)             After:  24488B4D1795347FB0D6E52B6F054066;1224.
+Package rerunfilecheck Info: File `CV_QL.out' has not changed.
+(rerunfilecheck)             Checksum: 24488B4D1795347FB0D6E52B6F054066;1224.
 Package logreq Info: Writing requests to 'CV_QL.run.xml'.
 \openout1 = `CV_QL.run.xml'.
 
@@ -1022,7 +1015,7 @@ al/texlive/2015/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV_QL.pdf (3 pages, 167474 bytes).
+Output written on CV_QL.pdf (3 pages, 167430 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  95 compressed objects within 1 object stream
