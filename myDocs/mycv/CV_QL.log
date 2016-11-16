@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 NOV 2016 22:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 NOV 2016 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,12 +984,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
  (./CV_QL.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
 Package rerunfilecheck Info: File `CV_QL.out' has not changed.
 (rerunfilecheck)             Checksum: 24488B4D1795347FB0D6E52B6F054066;1224.
 Package logreq Info: Writing requests to 'CV_QL.run.xml'.
@@ -1015,7 +1015,7 @@ al/texlive/2015/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV_QL.pdf (3 pages, 167430 bytes).
+Output written on CV_QL.pdf (3 pages, 167601 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  95 compressed objects within 1 object stream
