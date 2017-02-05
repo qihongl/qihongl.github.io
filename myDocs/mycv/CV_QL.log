@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JAN 2017 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 FEB 2017 13:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,24 +984,24 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
  (./CV_QL.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
 Package rerunfilecheck Info: File `CV_QL.out' has not changed.
-(rerunfilecheck)             Checksum: 459657CCD435501F8BBF36CC8E4E6FC9;1367.
+(rerunfilecheck)             Checksum: B14745A0F1E54487B1FB8D86A39B48DE;1457.
 Package logreq Info: Writing requests to 'CV_QL.run.xml'.
 \openout1 = `CV_QL.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23255 strings out of 493089
- 396433 string characters out of 6134842
+ 23259 strings out of 493089
+ 396479 string characters out of 6134842
  845511 words of memory out of 5000000
- 26460 multiletter control sequences out of 15000+600000
- 66444 words of font info for 70 fonts, out of 8000000 for 9000
+ 26461 multiletter control sequences out of 15000+600000
+ 66545 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,14n,45p,10484b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -1015,10 +1015,10 @@ al/texlive/2015/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV_QL.pdf (3 pages, 168685 bytes).
+Output written on CV_QL.pdf (3 pages, 169744 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 20057 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 16 named destinations out of 1000 (max. 500000)
+ 20065 words of extra memory for PDF output out of 20736 (max. 10000000)
 
