@@ -4,9 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-<!-- <link rel="shortcut icon" href="https://www.cs.wisc.edu/sites/all/themes/cs_subtheme/favicon.ico" type="image/vnd.microsoft.icon" /> -->
-<link rel="shortcut icon" href="https://psych.princeton.edu/sites/psychology/themes/psychology/favicon.ico" type="image/vnd.microsoft.icon" />
-    
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -17,8 +14,10 @@
   ga('send', 'pageview');
 
 </script>
+
+<link rel="shortcut icon" href="https://psych.princeton.edu/sites/psychology/themes/psychology/favicon.ico" type="image/vnd.microsoft.icon" />
     
-    <title>Qihong Lu | Resources </title>
+    <title>Qihong Lu | Contact</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
@@ -30,15 +29,14 @@
       <header>
         <h1>Qihong Lu</h1>
         <p></p>
+        <br>
         
-        <br>                
-            
-        <p class="view"> Home </p>        
+        <p class="view"> <a href="index.html">Home</a></p>
         <p class="view"> <a href="research.html">Research</a></p>
         <p class="view"> <a href="academicCV.html">CV</a></p>
 <!--         <p class="view"> <a href="tutorial.html">Tutorials</a></p> -->
         <p class="view"> <a href="resources.html">Resources</a></p>
-        <p class="view"> <a href="contact.html">Contact</a></p>
+        <p class="view"> Contact</p>
         <br>
         
         <p class="view">
@@ -56,17 +54,59 @@
       <section>
       
 <h3>        
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to my personal webpage!
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact info
 </h3>
 
-<center><p style="width: 500px;">
-<img src="/myImages/myPics/me_slc.png">
-</p></center>
+My email: <br>
+qlu [at] princeton.edu <br>
+qihong.lu [at] wisc.edu
 
-<p>
-Hi, I'm Qihong Lu, or "Q". I'm a 1st year PhD student with <a href="http://psychology.princeton.edu/person/kenneth-norman">Ken Norman</a> and <a href="https://psych.princeton.edu/person/uri-hasson-0">Uri Hasson</a> at Princeton. 
+<br><br>
 
-</p>
+My office: <br>
+136D, Princeton Neuroscience Institute <br>
+Princeton, NJ 08544
+
+<br><br>
+
+Labs: <br>
+<a href = "http://compmem.princeton.edu/">Princeton Computational Memory Lab</a>  <br>
+<a href = "https://www.hassonlab.com/">Hasson Lab</a>
+
+<br><br>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        height: 300px;
+        width: 80%;
+       }
+    </style>
+  </head>
+  <body>
+<!--     <h3>Princeton Neuroscience Institute</h3> -->
+    Princeton Neuroscience Institute: 
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 40.343037, lng: -74.652503};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBikNgQ8AugNxfEuEI31XGGbl-oNrdUdZo&callback=initMap">
+    </script>
+  </body>
+</html>
 
       </section>
       <footer>
