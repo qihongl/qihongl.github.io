@@ -1,8 +1,10 @@
 http://qihongl.github.io
 http://qihongl.github.io/index.html
 http://qihongl.github.io/research.html
+http://qihongl.github.io/teaching.html
 http://qihongl.github.io/academicCV.html
 http://qihongl.github.io/tutorial.html
 http://qihongl.github.io/resources.html
 
 
+https://qihongl.github.io/qmvpa/

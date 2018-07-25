@@ -59,6 +59,11 @@ a:hover small {
   margin:0 auto;
 }
 
+.tab { 
+       display:inline-block; 
+       margin-left: 40px; 
+}
+
 blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
@@ -268,3 +273,5 @@ footer {
     color:#444;
   }
 }
+
+
