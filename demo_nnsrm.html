@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<!-- browser tab head  -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Qihong Lu | Research</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="https://psych.princeton.edu/sites/psychology/themes/psychology/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-83024954-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+<!-- the main body  -->
+
+<body>
+<div class="wrapper">
+
+<!-- the left column  -->
+
+<header>
+    <h1>Qihong Lu</h1>
+    <br>
+    
+    <p class="view"><h4><a href="index.html">Home</a></h4></p>
+    <p class="view"><a href="research.html"><h4>Research</h4></a></p>
+    <p class="view"><a href="resources.html"><h4>Resources</h4></a></p>
+    <p class="view"><a href="contact.html"><h4>Contact</h4></a></p>
+    <br><br>
+
+        <p class="view">
+        <a href="https://github.com/QihongL"> <img src="imgs/logo/github.png" alt="myGithub" style="width:40px;height:40px;"></a>
+        <a href="mailto:qlu@princeton.edu" target="_top"><img src="imgs/logo/email.png" alt="myEmail" style="width:40px;height:40px;"></a>
+        </p>
+
+        <p class="view">
+        <a href="https://www.facebook.com/qihong.lu.9"> <img src="imgs/logo/facebook.png" alt="myFacebook" style="width:40px;height:40px;"></a>
+        <a href="https://twitter.com/Qihong_Lu"> <img src="imgs/logo/twitter_flat.png" alt="myTwitter" style="width:41px;height:41px;"></a>
+        </p>
+</header>
+
+<!-- the END of left column  -->
+
+<!-- the right column  -->
+
+<section>
+
+<h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
+</h3>
+
+
+<h3><p><strong>Demo: rigid-body transformations can align hidden representational spaces across neural networks</strong></p></h3>
+
+The animations below visualize the neural dynamics when all networks are viewing the same sequence of images (2000 images from CIFAR100 test set, ordered by classes). 
+We used shared response model to estimate subject-specific orthogonal transformation for each network and then aligned them. 
+<br>
+- All networks are trained on the same training set. 
+<br>
+- Each line is a different instantiation of the network. 
+
+
+<br>
+<br>
+<b>Caveat</b>: These results are three-dimensional projections of some high dimensional neural dynamics (dim = # hidden units), so they should be interpreted carefully.
+
+<br> 
+<br>
+The animation below shows the neural dynamics of 5 conv nets (the last hidden layer) in their native spaces (i.e. before alignment): 
+<img width="500" src="anims/nnsrm/beforesrm_conv_cifar100_e50_l13 2.mp4" 
+alt="">
+
+
+<br>
+The animation below shows shows the aligned neural dynamics for the 5 conv nets using rigid-body transformations. A good alignment here would suggest the geometry of the hidden representation across networks are highly consistent. Namely, different neural network learn different rigid-body transformations of the same representational structure. 
+<img width="500" src="anims/nnsrm/conv_cifar100_e50_l13.mp4" 
+alt="">
+
+<br>
+The animation below shows 5 ResNet18 (layer 15) aligned by the same method. Our quantitative analysis shows that the "representational diversity" of these ResNets is not very well accounted by rigid-body transformations, compared to conv nets. 
+<img width="500" src="anims/nnsrm/resnet18_cifar100_e100_l55.mp4" 
+alt="">
+
+<br>
+<br>
+<b>References:</b>
+
+<br>
+<br>
+
+[1] 
+Shared representation across neural networks.
+<br>
+Lu, Q., Chen, P. H., Pillow, J. W., Ramadge, P. J., Norman, K. A., & Hasson, U. 
+<br>
+Workshop on Integration of Deep Learning Theories, NIPS 2018. 
+<br>
+<!-- paper -->
+
+
+<br>
+[2] 
+A huge thanks to <a href="https://github.com/ContextLab/hypertools">hypertools</a>, 
+the package I used to make these animations. 
+
+</section>
+
+
+</div>
+<script src="javascripts/scale.fix.js"></script>
+
+</body>
+
+</html>
