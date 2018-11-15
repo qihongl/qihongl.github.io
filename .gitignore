@@ -2,3 +2,6 @@
 temp/
 
 testing.html
+
+*.mp4
+*.sh
