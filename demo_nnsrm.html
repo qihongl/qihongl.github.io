@@ -76,18 +76,18 @@ We used shared response model to estimate subject-specific orthogonal transforma
 
 <br> 
 <br>
-The animation below shows the neural dynamics of 5 conv nets (the last hidden layer) in their native spaces (i.e. before alignment): 
-<img width="500" src="anims/nnsrm/beforesrm_conv_cifar100_e50_l13 2.gif" 
+The animation below shows the neural dynamics of 5 conv nets (the last hidden layer) in their native spaces (i.e. <b>before alignment</b>): 
+<img width="500" src="anims/nnsrm/beforesrm_conv_cifar100_e50_l13.gif" 
 alt="">
 
 
 <br>
-The animation below shows shows the aligned neural dynamics for the 5 conv nets using rigid-body transformations. A good alignment here would suggest the geometry of the hidden representation across networks are highly consistent. Namely, different neural network learn different rigid-body transformations of the same representational structure. 
+The animation below shows the <b>aligned</b> neural dynamics for the 5 conv nets using rigid-body transformations. A good alignment here would suggest the geometry of the hidden representation across networks are highly consistent. Namely, different neural network learn different rigid-body transformations of the same representational structure. 
 <img width="500" src="anims/nnsrm/conv_cifar100_e50_l13.gif" 
 alt="">
 
 <br>
-The animation below shows 5 ResNet18 (layer 15) aligned by the same method. Our quantitative analysis shows that the "representational diversity" of these ResNets is not very well accounted by rigid-body transformations, compared to conv nets. 
+The animation below shows 5 ResNet18 (layer 15) <b>aligned</b> by the same method. Our quantitative analysis shows that the "representational diversity" of these ResNets is not very well accounted by rigid-body transformations, compared to conv nets. 
 <img width="500" src="anims/nnsrm/resnet18_cifar100_e100_l55.gif" 
 alt="">
 
