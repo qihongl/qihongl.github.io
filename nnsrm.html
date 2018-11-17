@@ -63,7 +63,7 @@
 <h3><p><strong>Demo: rigid-body transformations can align hidden representational spaces across neural networks</strong></p></h3>
 
 The animations below visualize the neural dynamics when all networks are viewing the same sequence of images (2000 images from CIFAR100 test set, ordered by classes). 
-We used shared response model to estimate subject-specific orthogonal transformation for each network and then aligned them. 
+We used shared response model to estimate subject-specific orthogonal transformation for each network and then aligned them with orthogonal transformations, which can be viewed as some rigid-body transformations. 
 <br>
 - All networks are trained on the same training set. 
 <br>
@@ -72,26 +72,43 @@ We used shared response model to estimate subject-specific orthogonal transforma
 
 <br>
 <br>
-<b>Caveat</b>: These results are three-dimensional projections of some high dimensional neural dynamics (dim = # hidden units), so they should be interpreted carefully.
+<b>Caveat</b>: These results are three-dimensional PCA projections of some high dimensional neural dynamics (dim = # hidden units), so they should be interpreted carefully.
 
 <br> 
 <br>
-The animation below shows the neural dynamics of 5 conv nets (the last hidden layer) in their native spaces (i.e. <b>before alignment</b>): 
-<img width="500" src="anims/nnsrm/beforesrm_conv_cifar100_e50_l13.gif" 
-alt="">
+The animations below shows the neural dynamics of 5 conv nets (the last hidden layer) before alignment (Fig 1A). vs. after alignment (Fig 1B). High degree of alignment would suggest the geometry of the hidden representation across networks are highly similar. Namely, different neural networks learn different orthogonal transformations of the same representational structure. 
+<br>
+
+<div class="resnet18_srm">
+    <div class="imgContainer">
+        <img src="anims/nnsrm/beforesrm_conv_cifar100_e50_l13.gif" width="300">
+        <p>Fig 1A, ConvNets, before alignment</p>
+    </div>
+    <div class="imgContainer">
+        <img class="middle-img" src="anims/nnsrm/conv_cifar100_e50_l13.gif" width="300">
+        <p>Fig 1B, ConvNets, after alignment</p>
+    </div>
+</div>
 
 
 <br>
-The animation below shows the <b>aligned</b> neural dynamics for the 5 conv nets using rigid-body transformations. A good alignment here would suggest the geometry of the hidden representation across networks are highly consistent. Namely, different neural network learn different rigid-body transformations of the same representational structure. 
-<img width="500" src="anims/nnsrm/conv_cifar100_e50_l13.gif" 
-alt="">
-
+Here're the animations for 5 ResNet18 (layer 15) before vs. after alignment. A more quantitaively analysis revealed that orthogonal transformations explained less variance for ResNet alignment, compared to ConvNets, suggesting high capacity models can learn representations that are more qualitatively different. 
 <br>
-The animation below shows 5 ResNet18 (layer 15) <b>aligned</b> by the same method. Our quantitative analysis shows that the "representational diversity" of these ResNets is not very well accounted by rigid-body transformations, compared to conv nets. 
-<img width="500" src="anims/nnsrm/resnet18_cifar100_e100_l55.gif" 
-alt="">
 
-<br>
+<div class="resnet18_srm">
+    <div class="imgContainer">
+        <img src="anims/nnsrm/beforesrm_resnet18_cifar100_e100_l55.gif" width="300">
+        <p>Fig 2A, ResNets, before alignment</p>
+    </div>
+    <div class="imgContainer">
+        <img class="middle-img" src="anims/nnsrm/resnet18_cifar100_e100_l55.gif" width="300">
+        <p>Fig 2B, ResNets, after alignment</p>
+    </div>
+</div>
+
+
+<img vspace=20>
+
 <br>
 <b>References:</b>
 <br>
