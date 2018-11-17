@@ -3,6 +3,34 @@
 
 <!-- browser tab head  -->
 <head>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 0px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Qihong Lu | Research</title>
@@ -79,31 +107,32 @@ We used shared response model to estimate subject-specific orthogonal transforma
 The animations below shows the neural dynamics of 5 conv nets (the last hidden layer) before alignment (Fig 1A). vs. after alignment (Fig 1B). High degree of alignment would suggest the geometry of the hidden representation across networks are highly similar. Namely, different neural networks learn different orthogonal transformations of the same representational structure. 
 <br>
 
-<div class="resnet18_srm">
-    <div class="imgContainer">
-        <img src="anims/nnsrm/beforesrm_conv_cifar100_e50_l13.gif" width="300">
-        <p>Fig 1A, ConvNets, before alignment</p>
-    </div>
-    <div class="imgContainer">
-        <img class="middle-img" src="anims/nnsrm/conv_cifar100_e50_l13.gif" width="300">
-        <p>Fig 1B, ConvNets, after alignment</p>
-    </div>
+<div class="row">
+  <div class="column">
+    <img src="anims/nnsrm/beforesrm_conv_cifar100_e50_l13.gif" style="width:100%">
+    <p>Fig 1A, ConvNets, before alignment</p>
+  </div>
+  <div class="column">
+    <img src="anims/nnsrm/conv_cifar100_e50_l13.gif" style="width:100%">
+    <p>Fig 1B, ConvNets, after alignment</p>
+  </div>
 </div>
+
 
 
 <br>
 Here're the animations for 5 ResNet18 (layer 15) before vs. after alignment. A more quantitaively analysis revealed that orthogonal transformations explained less variance for ResNet alignment, compared to ConvNets, suggesting high capacity models can learn representations that are more qualitatively different. 
 <br>
 
-<div class="resnet18_srm">
-    <div class="imgContainer">
-        <img src="anims/nnsrm/beforesrm_resnet18_cifar100_e100_l55.gif" width="300">
-        <p>Fig 2A, ResNets, before alignment</p>
-    </div>
-    <div class="imgContainer">
-        <img class="middle-img" src="anims/nnsrm/resnet18_cifar100_e100_l55.gif" width="300">
-        <p>Fig 2B, ResNets, after alignment</p>
-    </div>
+<div class="row">
+  <div class="column">
+    <img src="anims/nnsrm/beforesrm_resnet18_cifar100_e100_l55.gif" style="width:100%">
+    <p>Fig 2A, ResNets, before alignment</p>
+  </div>
+  <div class="column">
+    <img src="anims/nnsrm/resnet18_cifar100_e100_l55.gif" style="width:100%">
+    <p>Fig 2B, ResNets, after alignment</p>
+  </div>
 </div>
 
 
