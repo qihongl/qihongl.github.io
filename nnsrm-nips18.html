@@ -90,17 +90,19 @@
 
 <h3><p><strong>Demo: rigid-body transformations can align hidden representational spaces across neural networks</strong></p></h3>
 
-The animations below visualize the neural dynamics when all networks are viewing the same sequence of images (2000 images from CIFAR100 test set, ordered by classes). 
-We used shared response model to estimate subject-specific orthogonal transformation for each network and then aligned them with orthogonal transformations, which can be viewed as some rigid-body transformations. 
+When many instantiations of the same neural network architecture are trained on the same dataset, these networks tend to approximate the same mathematical mapping with very different weight configurations. What's the connection across these learned neural network solutions? In our recent work, we found the learned hidden representations across neural networks can be related by orthogonal transformations, which can be viewed as some rigid-body transformations. 
+
+<br>
+<br>
+Here we visualize the neural dynamics when all networks are viewing the same sequence of images (2000 images from CIFAR100 test set). 
 <br>
 - All networks are trained on the same training set. 
 <br>
-- Each line is a different instantiation of the network. 
-
-
+- Each line is a different neural network instance. 
 <br>
+- We aligned these networks with the shared response model. 
 <br>
-<b>Caveat</b>: These results are three-dimensional PCA projections of some high dimensional neural dynamics (dim = # hidden units), so they should be interpreted carefully.
+-<b> Caveat</b>: These results are three-dimensional PCA projections of some high dimensional neural dynamics (dim = # hidden units), so they should be interpreted carefully.
 
 <br> 
 <br>
@@ -109,11 +111,17 @@ The animations below shows the neural dynamics of 5 conv nets (the last hidden l
 
 <div class="row">
   <div class="column">
-    <img src="anims/nnsrm/beforesrm_conv_cifar100_e50_l13.gif" style="width:100%">
+    <img 
+    src="anims/nnsrm/beforesrm_conv_cifar100_e50_l13.gif" 
+    style="width:100%" 
+    alt="beforesrm_conv_cifar100_e50_l13.gif">
     <p>Fig 1A, ConvNets, before alignment</p>
   </div>
   <div class="column">
-    <img src="anims/nnsrm/conv_cifar100_e50_l13.gif" style="width:100%">
+    <img 
+    src="anims/nnsrm/conv_cifar100_e50_l13.gif" 
+    style="width:100%"
+    alt="conv_cifar100_e50_l13.gif">
     <p>Fig 1B, ConvNets, after alignment</p>
   </div>
 </div>
@@ -126,11 +134,17 @@ Here're the animations for 5 ResNet18 (layer 15) before (Fig 2A) vs. after align
 
 <div class="row">
   <div class="column">
-    <img src="anims/nnsrm/beforesrm_resnet18_cifar100_e100_l55.gif" style="width:100%">
+    <img 
+    src="anims/nnsrm/beforesrm_resnet18_cifar100_e100_l55.gif" 
+    style="width:100%"
+    alt="beforesrm_resnet18_cifar100_e100_l55.gif">
     <p>Fig 2A, ResNets, before alignment</p>
   </div>
   <div class="column">
-    <img src="anims/nnsrm/resnet18_cifar100_e100_l55.gif" style="width:100%">
+    <img 
+    src="anims/nnsrm/resnet18_cifar100_e100_l55.gif" 
+    style="width:100%"
+    alt="beforesrm_resnet18_cifar100_e100_l55.gif">
     <p>Fig 2B, ResNets, after alignment</p>
   </div>
 </div>
