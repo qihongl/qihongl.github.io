@@ -3,4 +3,5 @@ http://qihongl.github.io/index.html
 http://qihongl.github.io/research.html
 http://qihongl.github.io/resources.html
 https://qihongl.github.io/contact.html
+https://qihongl.github.io/nnsrm-NeurIPS18.html
 https://qihongl.github.io/qmvpa/
